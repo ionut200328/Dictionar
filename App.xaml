@@ -1,0 +1,28 @@
+﻿<Application x:Class="Dictionar.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Dictionar"
+             xmlns:viewModel="clr-namespace:Dictionar.MVVM.ViewModel" 
+             xmlns:view="clr-namespace:Dictionar.MVVM.View"
+             Startup="OnStartup">
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+            <view:HomeView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:AdminViewModel}">
+            <view:AdminView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:GameViewModel}">
+            <view:GameView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:EditViewModel}">
+            <view:EditView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:DetailsViewModel}">
+            <view:DetailsView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:EditWordViewModel}">
+            <view:EditWord/>
+        </DataTemplate>
+    </Application.Resources>
+</Application>

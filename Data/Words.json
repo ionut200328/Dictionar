@@ -1,0 +1,27 @@
+{
+  "apple": {
+    "Category": "fruit",
+    "Description": "Edible round, red fruit",
+    "Image": "E:\\AN II Sem 2\\MVP\\Dictionar\\Data\\Images\\Red_Apple.jpg"
+  },
+  "carrot": {
+    "Category": "vegetable",
+    "Description": "The carrot (Daucus carota subsp. sativus) is a root vegetable, usually orange in color, though purple, black, red, white, and yellow cultivars exist. They are a domesticated form of the wild carrot, Daucus carota, native to Europe and Southwestern Asia. The plant probably originated in Persia and was originally cultivated for its leaves and seeds. The most commonly eaten part of the plant is the taproot, although the stems and leaves are also eaten. The domestic carrot has been selectively bred for its greatly enlarged, more palatable, less woody-textured taproot.",
+    "Image": null
+  },
+  "grape": {
+    "Category": "fruit",
+    "Description": "A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes can be eaten fresh as table grapes or they can be used for making wine, jam, grape juice, jelly, grape seed extract, raisins, vinegar, and grape seed oil. Grapes are a non-climacteric type of fruit, generally occurring in clusters.",
+    "Image": "E:\\AN II Sem 2\\MVP\\Dictionar\\Data\\Images\\Grapes.jpg"
+  },
+  "porshe": {
+    "Category": "car",
+    "Description": "Porsche AG is a German automobile manufacturer specializing in high-performance sports cars, SUVs and sedans. The headquarters of Porsche AG is in Stuttgart, and the company is owned by Volkswagen AG, a controlling stake of which is owned by Porsche Automobil Holding SE. Porsche's current lineup includes the 718 Boxster/Cayman, 911, Panamera, Macan, Cayenne and Taycan.",
+    "Image": null
+  },
+  "tomato": {
+    "Category": "vegetable",
+    "Description": "The tomato is the edible, often red, berry of the plant Solanum lycopersicum, commonly known as a tomato plant. The species originated in western South America and Central America. The Nahuatl (Aztec language) word tomatl gave rise to the Spanish word tomate, from which the English word tomato derived. Its domestication and use as a cultivated food may have originated with the indigenous peoples of Mexico. The Aztecs used tomatoes in their cooking at the time of the Spanish conquest of the Aztec Empire, and after the Spanish encountered the tomato for the first time after their contact with the Aztecs, they brought the plant to Europe. From there, the tomato was introduced to other parts of the European-colonized world during the 16th century.",
+    "Image": null
+  }
+}

@@ -1,0 +1,29 @@
+﻿<Window x:Class="Dictionar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dictionar" 
+        xmlns:viewmodel="clr-namespace:Dictionar.MVVM.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:MainViewModel}"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="105,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="-103,1,103,-1">
+            <Button Content="Home"
+                    Height="25"
+                    Command="{Binding NavigateToHomeCommand}"/>
+            <Button Content="Admin"
+                    Height="25"
+                    Command="{Binding NavigateToAdminCommand}"/>
+            <Button Content="Game"
+                    Height="25"
+                    Command="{Binding NavigateToGameCommand}"/>
+        </StackPanel>
+        <Frame Content="{Binding NavigationService.CurrentViewModel}" Grid.ColumnSpan="2" Margin="0,1,0,-1"/>
+    </Grid>
+</Window>
